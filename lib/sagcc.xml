@@ -113,6 +113,7 @@ Make sure you bootstrap Command Central client on this host
 
 		<ccsetup configurationFile="${cc.properties}" />
 
+        <property name="build.dir" location="${basedir}/build" />
 	</target>
 
 	<!-- MAIN targets -->
